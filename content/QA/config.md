@@ -5,7 +5,7 @@ title: 配置和运行时的问题
 weight: 2
 ---
 
-{{% panel theme="info" header="**Q: 为什么windows下只有一个可执行程序? 我想要隐藏执行, 嘤嘤嘤.**" %}}
+{{% panel theme="warning" header="**Q: 为什么windows下只有一个可执行程序? 我想要隐藏执行, 嘤嘤嘤.**" %}}
 
 A1: <br />
 方式很多,如:
@@ -43,21 +43,21 @@ D:/Xray run -c D:/Xray.json `
 
 <br />
 
-{{% panel theme="info" header="**Q: 无法用做Tor前置代理 [#66](https://github.com/XTLS/Xray-core/issues/66)** " %}}
+{{% panel theme="warning" header="**Q: 无法用做Tor前置代理 [#66](https://github.com/XTLS/Xray-core/issues/66)** " %}}
 
 关闭 sniffing 再试试.
 {{% /panel %}}
 
 <br />
 
-{{% panel theme="info" header="**Q: 如何自定义.dat文件的文件位置?** " %}}
+{{% panel theme="warning" header="**Q: 如何自定义.dat文件的文件位置?** " %}}
 
 设置环境变量 XRAY_LOCATION_ASSET 的值
 {{% /panel %}}
 
 <br />
 
-{{% panel theme="info" header="**Q: 为什么我配置了SSL证书但不可用?** " %}}
+{{% panel theme="warning" header="**Q: 为什么我配置了SSL证书但不可用?** " %}}
 
 - 检查证书权限
 - 使用 fullchain 证书
@@ -65,7 +65,7 @@ D:/Xray run -c D:/Xray.json `
 
 <br />
 
-{{% panel theme="info" header="**Q: 我以前用gfw列表, 我现在用Xray怎么进行分流呢?** " %}}
+{{% panel theme="warning" header="**Q: 我以前用gfw列表, 我现在用Xray怎么进行分流呢?** " %}}
 
 使用geo*.dat, 并且合理配置路由规则.
 
@@ -73,7 +73,7 @@ D:/Xray run -c D:/Xray.json `
 
 <br />
 
-{{% panel theme="info" header="**Q: 我还是上一题的提问者, 那么我如何使用dat数据文件和配置路由规则达到国内走直连,其他走代理的目的呢?** " %}}
+{{% panel theme="warning" header="**Q: 我还是上一题的提问者, 那么我如何使用dat数据文件和配置路由规则达到国内走直连,其他走代理的目的呢?** " %}}
 
 ~~等待好心人写一篇小小白白话文~~
 

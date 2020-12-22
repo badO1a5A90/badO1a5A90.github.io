@@ -6,7 +6,7 @@ weight: 3
 ---
 
 
-{{% panel theme="info" header="**Q: 我是瓜瓜, 我想问 Xray 是不是最快的?**" %}}
+{{% panel theme="warning" header="**Q: 我是瓜瓜, 我想问 Xray 是不是最快的?**" %}}
 
 
 是. 
@@ -15,7 +15,7 @@ weight: 3
 
 {{% /panel %}}
 
-{{% panel theme="info" header="**Q: 什么工具或协议组合最快啊?/我应该用什么工具协议组合啊?**" %}}
+{{% panel theme="warning" header="**Q: 什么工具或协议组合最快啊?/我应该用什么工具协议组合啊?**" %}}
 
 **个人自建上网,首先考虑安全性和伪装性,然后选择能满足自己需求的最高性能组合**
 
@@ -28,7 +28,7 @@ weight: 3
 
 {{% /panel %}}
 
-{{% panel theme="info" header="**Q: mac和win 使用splice是不是无解了？**" %}}
+{{% panel theme="warning" header="**Q: mac和win 使用splice是不是无解了？**" %}}
 
 - Windows 提供了 TransmitFile，但似乎不能用于两个 TCP 对接
 - Windows 10 有 WSL
@@ -38,7 +38,7 @@ weight: 3
 
 {{% /panel %}}
 
-{{% panel theme="info" header="**Q: 有无xtls+splice+ws的计划？**" %}}
+{{% panel theme="warning" header="**Q: 有无xtls+splice+ws的计划？**" %}}
 
 XTLS 原理上不支持 WS
 

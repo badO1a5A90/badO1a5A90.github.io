@@ -5,12 +5,12 @@ title: 关于Xray
 weight: 8
 ---
 
-{{% panel theme="info" header="**Q: XXX功能什么时候出来呀!** " %}}
+{{% panel theme="warning" header="**Q: XXX功能什么时候出来呀!** " %}}
 
 康明宋
 {{% /panel %}}
 
-{{% panel theme="info" header="**Q: 为什么会开发 Xray ?** " %}}
+{{% panel theme="warning" header="**Q: 为什么会开发 Xray ?** " %}}
 
 兴趣使然
 
@@ -18,14 +18,14 @@ weight: 8
 
 {{% /panel %}}
 
-{{% panel theme="info" header="**Q: Xray收钱吗? 可以按我的要求定制吗?** " %}}
+{{% panel theme="warning" header="**Q: Xray收钱吗? 可以按我的要求定制吗?** " %}}
 
 Xray 不沾钱,这是个兴趣使然的项目.<br>
 Xray 不接受定制, 只根据大家的需求进行兴趣使然的开发.
 
 {{% /panel %}}
 
-{{% panel theme="info" header="**Q: XXX也是你们开发的吗?** " %}}
+{{% panel theme="warning" header="**Q: XXX也是你们开发的吗?** " %}}
 
 **请明辨您获取资源的来源, 小心使用, 谨防蜜罐**<br />
 我们的开发均托管在 github, 不在[project X 仓库](https://github.com/XTLS)的, 都不属于 project X 开发.
@@ -36,7 +36,7 @@ Xray 不接受定制, 只根据大家的需求进行兴趣使然的开发.
 
 {{% /panel %}}
 
-{{% panel theme="info" header="**Q:  Xray和v2ray是什么关系啊?** " %}}
+{{% panel theme="warning" header="**Q:  Xray和v2ray是什么关系啊?** " %}}
 
 ~~禁忌の歷史迷局~~
 

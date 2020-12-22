@@ -5,7 +5,7 @@ title: 透明代理相关问题
 weight: 4
 ---
 
-{{% panel theme="info" header="**Q: 我搭建了透明代理给我和我同宿舍/隔壁宿舍的同学用, 日志中出现很多 too many open files .怎么办? 急,在线等.** " %}}
+{{% panel theme="warning" header="**Q: 我搭建了透明代理给我和我同宿舍/隔壁宿舍的同学用, 日志中出现很多 too many open files .怎么办? 急,在线等.** " %}}
 
 ~~让你的同学少用BT过代理下载American Video~~ <br />
 
@@ -13,7 +13,7 @@ weight: 4
 
 {{% /panel %}}
 
-{{% panel theme="info" header="**Q: sniffing的具体功能是什么，什么时候发挥作用?** " %}}
+{{% panel theme="warning" header="**Q: sniffing的具体功能是什么，什么时候发挥作用?** " %}}
 
 sniffing流量探测主要作用是用在透明代理等用途.
 
