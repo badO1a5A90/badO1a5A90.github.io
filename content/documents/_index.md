@@ -26,5 +26,5 @@ weight: 4
 {{< /columns >}}
 
 {{% notice warning %}}
-感谢大家无私分享使用技巧和心得,使得Xray日益强大.
+非常感谢大家无私分享使用技巧和心得, 使得Xray日益强大.
 {{% /notice %}}
