@@ -31,7 +31,10 @@ menushortcutsnewtab = false # set true to open shortcuts links to a new tab/wind
 editURL = "https://github.com/badO1a5A90/badO1a5A90.github.io/tree/main/content/"
 enableGitInfo = true
 
+author = "Project X" 
+description = "Project X Documents" 
 
+disableInlineCopyToClipBoard = false
 
 [mediaTypes]
   [mediaTypes."application/netlifyconfig"]
@@ -82,4 +85,9 @@ weight = 20
 # [[menu.shortcuts]]
 # name = "Credits"
 # url = "/docport-theme/credits/"
+# weight = 30
+
+# [[menu.shortcuts]]
+# name = "<i class='fas fa-tags'></i> Tags"
+# url = "/tags"
 # weight = 30
