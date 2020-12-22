@@ -7,6 +7,8 @@ DefaultContentLanguage = "en"
 pygmentsCodeFences = true
 pygmentsStyle = "monokai"
 
+disableAssetsBusting = false 
+
 defaultContentLanguageInSubdir= false
 enableMissingTranslationPlaceholders = false
 
