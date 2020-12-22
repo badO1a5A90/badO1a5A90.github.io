@@ -126,7 +126,7 @@ article section.page {
           content: "⊸"; }
         article section.page #ariane ol li a {
           color: black;
-          border-bottom: 1px dotted #e66a4e;
+          border-bottom: 1px dotted #E24800;
           padding-bottom: 4px;
           padding-right: 0px; }
         article section.page #ariane ol li.active:after {
@@ -156,18 +156,18 @@ article section.page {
       min-width: 50px; }
       article section.page nav.subpages li a {
         font-size: 90%;
-        color: #ff5a35; }
+        color: #e24800; }
       article section.page nav.subpages li:not(:first-child):before {
         display: inline-block;
         margin-left: 0.4em;
         padding-right: .4rem;
-        color: #ff5a35;
+        color: #e24800;
         content: "|"; }
       article section.page nav.subpages li.active {
         font-weight: bold; }
     article section.page nav.subpages li:first-child:before {
       content: "└ ";
-      color: #ff5a35; }
+      color: #e24800; }
   article section.page div.jump-to-section {
     font-size: smaller;
     color: #333333; }
@@ -175,7 +175,7 @@ article section.page {
       padding-left-left: 0px;
       list-style-type: none; }
       article section.page div.jump-to-section ul li a {
-        color: #ff5a35; }
+        color: #e24800; }
     article section.page div.jump-to-section nav {
       background-color: white;
       opacity: 0.95; }
@@ -239,7 +239,7 @@ article section.page div.content {
     top: -7rem;
     visibility: hidden; }
   article section.page div.content a {
-    color: #ff5a35;
+    color: #e24800;
     font-weight: 500;
     text-decoration: underline; }
   article section.page div.content p {
@@ -288,7 +288,6 @@ article section.page div.content {
     border: 0;
     max-width: 100%;
     margin: 1.5rem auto;
-    display: block;
     text-align: center; }
     article section.page div.content img.border {
       border: 2px solid #e6e6e6 !important;

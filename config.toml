@@ -2,7 +2,7 @@ title = "Project X"
 # theme = "docsy"
 theme = "docport"
 baseURL = "https://badO1a5A90.github.io"
-languageCode = "en-us"
+languageCode = "zh-cn"
 DefaultContentLanguage = "en"
 pygmentsCodeFences = true
 pygmentsStyle = "monokai"
@@ -22,12 +22,13 @@ home = [ "HTML", "RSS", "JSON"]
 [params]
 ordersectionsby = "weight" # ordersectionsby = "title"
 color_main = "#737373"
-color_second = "#e66a4e"
+color_second = "#E24800"
+# color_second = "#e66a4e"
 disableSearch = true # default is false
 disableNavChevron = true # set true to hide next/prev chevron, default is false
 menushortcutsnewtab = false # set true to open shortcuts links to a new tab/window
 
-editURL = "https://github.com/badO1a5A90/badO1a5A90.github.io/content/"
+editURL = "https://github.com/badO1a5A90/badO1a5A90.github.io/tree/main/content/"
 enableGitInfo = true
 
 

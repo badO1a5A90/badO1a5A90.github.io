@@ -1,6 +1,6 @@
 ---
 date: "2020-08-20T16:42:11.812Z"
-description: Getting started
+description: Project X 的文档.
 title: 工作方式
 weight: 4
 ---

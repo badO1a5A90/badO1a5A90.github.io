@@ -24,7 +24,7 @@ Example from the current "Getting start" section.
 ```yaml
 ---
 # Menu label
-title: "Getting started"
+title: "Project X 的文档."
 
 # Hide this page from menu
 hidden: false
