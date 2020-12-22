@@ -5,10 +5,6 @@ title: 反向代理
 weight: 10
 ---
 
-{{% notice warning %}}
-反向代理功能尚处于测试阶段，可能会有一些问题。
-{{% /notice %}}
-
 反向代理可以把服务器端的流量向客户端转发，即逆向流量转发。
 
 反向代理的大致工作原理如下:
@@ -22,6 +18,10 @@ weight: 10
 {{% notice info %}}
 **TIP**\
 反向代理默认已开启 [Mux](mux.md)，请不要在其用到的outbound上再次开启 Mux。
+{{% /notice %}}
+
+{{% notice warning %}}
+反向代理功能尚处于测试阶段，可能会有一些问题。
 {{% /notice %}}
 
 <br />

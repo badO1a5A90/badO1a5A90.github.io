@@ -8,6 +8,7 @@ weight: 1
 日志配置，控制 Xray输出日志的方式.
 
 Xray 有两种日志, 访问日志和错误日志, 你可以分别配置两种日志的输出方式.
+
 ## LogObject
 ---
 LogObject 对应配置文件的 `log` 项。

@@ -15,9 +15,9 @@ weight: 8
 
 - Linux Script
   - [Xray-install](https://github.com/XTLS/Xray-install)
-  - [Xray-script](https://github.com/kirin10000/Xray-script)  感谢[@kirin](https://github.com/kirin10000)
+  - [Xray-script](https://github.com/kirin10000/Xray-script)  感谢<img src="https://avatars2.githubusercontent.com/u/57820613?s=32" width="32px" height="32px" alt="a"/>[@kirin](https://github.com/kirin10000)
 - Docker
-  - [teddysun/xray](https://hub.docker.com/r/teddysun/xray)   感谢[@秋水](https://hub.docker.com/u/teddysun)
+  - [teddysun/xray](https://hub.docker.com/r/teddysun/xray)   感谢[@秋水逸冰](https://hub.docker.com/u/teddysun)
   - Xray-docker
 - One Click
   - [ProxySU](https://github.com/proxysu/ProxySU)   感谢[@ProxySu](https://github.com/proxysu)

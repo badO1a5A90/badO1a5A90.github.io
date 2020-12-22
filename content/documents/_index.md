@@ -25,6 +25,8 @@ weight: 4
 
 {{< /columns >}}
 
-{{% notice warning %}}
-非常感谢大家无私分享使用技巧和心得, 使得Xray日益强大.
+<br />
+
+{{% notice warning 致谢 %}}
+<font size=3>非常感谢大家无私分享使用技巧和心得, 使得Xray日益强大.</font>
 {{% /notice %}}

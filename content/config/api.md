@@ -5,15 +5,17 @@ title: API接口
 weight: 2
 ---
 
-{{% notice warning %}}
-大多数用户并不会用到此 API，新手可以直接忽略这一项。
-{{% /notice %}}
+
 
 API接口配置提供了一些基于 [gRPC](https://grpc.io/)的 API 接口供远程调用。  
 
 可以通过api配置模块开启接口. 当api配置开启时，Xray 会自建一个出站代理， 须手动将所有的 API 入站连接通过 [路由规则配置](../routing) 指向这一出站代理。  
 
 请参考本节中的[相关配置](#相关配置)
+
+{{% notice warning %}}
+大多数用户并不会用到此 API，新手可以直接忽略这一项。
+{{% /notice %}}
 
 ## ApiObject
 ---
