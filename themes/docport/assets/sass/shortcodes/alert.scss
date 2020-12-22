@@ -2,7 +2,8 @@ $color_primary : #007bff ;
 $color_secondary : #6c757d ;
 $color_success : #28a745 ;
 $color_danger : #dc3545 ;
-$color_warning : #ff9c1b ;
+// $color_warning : #ff9c1b ;
+$color_warning : #E24800 ;
 $color_info : #17a2b8 ;
 $color_light : #f8f9fa ;
 $color_dark : #343a40 ;
@@ -33,7 +34,7 @@ div.alert{
 		border-color: $color_success;		
 	}
 	&.warning{
-		color: black;
+		color: white;
 		background-color: $color_warning;
 		border-color: $color_warning;		
 	}

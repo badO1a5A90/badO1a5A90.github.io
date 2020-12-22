@@ -22,7 +22,7 @@ hide:
 
 <br/>
 
-{{< button href="./about" theme="warning" >}} <font size="4" >由此开始 </font> {{< /button >}}  
+{{< button href="./about" theme="warning" >}} <font size="4" > **由此开始** </font> {{< /button >}}  
 
 ---
 

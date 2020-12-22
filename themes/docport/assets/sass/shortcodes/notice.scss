@@ -88,8 +88,14 @@ div.notices {
 		> *:not(label) {
 			box-shadow: inset 4px 0 0 $color_warning;
 			background: transparentize($color_warning, 0.95);
+			// background: #E24800;
+			// color: #E24800; 
 			color: darken($color_warning,20%) !important; 
 		}
+		// label{
+		// 	background:#E24800;
+		// 	color:#E24800;
+		// }
 		label{color: $color_warning;}
 	}
 
@@ -99,7 +105,8 @@ div.notices {
 			background: transparentize($color_info, 0.95);
 			color: darken($color_info,20%) !important; 
 		}
-		label{color: $color_info;}
+		label{
+			color: $color_info;}
 	}
 
 	&.light {
