@@ -11,3 +11,10 @@ XTLS 是 Xray 的原创黑科技, 也是使 Xray 性能一骑绝尘的核心动�
 
 点此查看详情 [XTLS](../../config/xtls)
 {{% /panel %}}
+
+{{% panel theme="info" header="**Q: TLS和XTLS有啥区别?XTLS会不安全吗?** " %}}
+
+安全性没有区别.
+
+性能有区别.XTLS比TLS快的多的多的多.
+{{% /panel %}}

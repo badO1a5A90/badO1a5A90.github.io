@@ -64,3 +64,19 @@ D:/Xray run -c D:/Xray.json `
 {{% /panel %}}
 
 <br />
+
+{{% panel theme="info" header="**Q: 我以前用gfw列表, 我现在用Xray怎么进行分流呢?** " %}}
+
+使用geo*.dat, 并且合理配置路由规则.
+
+{{% /panel %}}
+
+<br />
+
+{{% panel theme="info" header="**Q: 我还是上一题的提问者, 那么我如何使用dat数据文件和配置路由规则达到国内走直连,其他走代理的目的呢?** " %}}
+
+~~等待好心人写一篇小小白白话文~~
+
+{{% /panel %}}
+
+<br />
