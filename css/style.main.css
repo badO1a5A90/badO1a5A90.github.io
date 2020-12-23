@@ -288,8 +288,7 @@ article section.page div.content {
     border: 0;
     max-width: 100%;
     margin: 0rem 0rem -0.5rem 0rem;
-    text-align: center;
-    border-radius: 100%; }
+    text-align: center; }
     article section.page div.content img.border {
       border: 2px solid #e6e6e6 !important;
       padding: 2px; }
