@@ -2,7 +2,7 @@
 alwaysopen: true
 date: "2020-08-20T16:42:11.812Z"
 description: Project X 的文档.
-# head: <hr/>
+head: <hr/>
 hide:
 # - toc
 post: "&nbsp;🤝"

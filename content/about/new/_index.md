@@ -1,12 +1,12 @@
 ---
-alwaysopen: true
+alwaysopen: false
 date: "2020-08-20T16:42:11.812Z"
 description: Project X 的文档.
 # head: <hr/>
 hide:
 # - toc
 post: "&nbsp;"
-title: 最近更新
+title: 大史记
 weight: 1
 ---
 ## 2020.12.23
