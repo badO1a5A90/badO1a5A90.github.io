@@ -14,6 +14,13 @@ Xray-core Shadowsocks UDP FullCone 测试版, [TG群](https://t.me/projectXray)�
 
 <br />
 
+## 2020.12.21
+---
+- Project X 群人数 2000+
+- 群消息(含游戏群) 日均破万
+
+<br />
+
 ## 2020.12.18
 ---
 ###  [v1.1.4](https://github.com/XTLS/Xray-core/releases/tag/v1.1.4)

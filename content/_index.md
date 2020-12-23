@@ -10,17 +10,23 @@ hide:
 # redirect: "./about/_index.md"
 ---
 
+<br />
+
+
 <div  align="center">  
 <img src="./LogoX2.png" width = "30%" height = "30%" alt="logo" align=center />
 
-<br/>
-<br/>
+<br />
+
+<br />
 
 <font size="6" >不 畏 浮 云 遮 望 眼  ·  金 睛 如 炬 耀 苍 穹</font>
 
 <font size="6" >K E E P &nbsp; R I D I N G &nbsp; / &nbsp; N E V E R &nbsp; L O O K &nbsp; B A C K</font>
 
 <br/>
+
+<br />
 
 {{< button href="./about" theme="warning" >}} <font size="4" > **由此开始** </font> {{< /button >}}  
 
@@ -33,8 +39,10 @@ hide:
 
 {{< columns >}}
 
-# 极速协议
+# 极速协议 
+
 <br />
+
 
 <font size="4" >原创 VLESS 轻量协议 摆脱冗余加密</font>
 
