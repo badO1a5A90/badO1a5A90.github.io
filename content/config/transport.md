@@ -69,6 +69,7 @@ weight: 8
     "network": "tcp",
     "security": "none",
     "tlsSettings": {},
+    "xtlsSettings": {},
     "tcpSettings": {},
     "kcpSettings": {},
     "wsSettings": {},
@@ -87,7 +88,7 @@ weight: 8
 
 连接的数据流所使用的传输方式类型，默认值为 `"tcp"`
 
-{{% notice dark %}}  `security`: "none" | "tls"{{% /notice %}}
+{{% notice dark %}}  `security`: "none" | "tls" | "xtls" {{% /notice %}}
 
 是否启用传输层加密，支持的选项有 
 - `"none"` 表示不加密（默认值）
@@ -97,7 +98,16 @@ weight: 8
 {{% notice dark %}}  `tlsSettings`: [TLSObject](#tlsobject){{% /notice %}}
 
 TLS 配置。TLS 由 Golang 提供，通常情况下TLS协商的结果为使用 TLS 1.3，不支持 DTLS。  
-{{% notice danger important %}}当 `security`的值指定为'xtls'时, 需将`tlsSettings` 修改成为 `xtlsSettings`, 具体的TLS配置方式不变.{{% /notice %}}
+
+{{% notice dark %}}  `xtlsSettings`: [XTLSObject](#tlsobject){{% /notice %}}
+
+XTLS 配置。XTLS 是 Xray 的原创黑科技, 也是使 Xray 性能一骑绝尘的核心动力.<br>
+XTLS 与 TLS 有相同的安全性, 配置方式也和TLS一致. 点击此处查看[XTLS的技术细节剖析](../xtls)
+{{% notice danger important %}}
+TLS / XTLS 是目前最安全的传输加密方案, 且外部看来流量类型和正常上网具有一致性.<br>
+启用 XTLS 并且配置合适的XTLS流控模式, 可以在保持和 TLS 相同的安全性的前提下, 性能达到数倍甚至十几倍的提升.<br>
+当 `security` 的值从'tls'改为'xtls'时, 只需将`tlsSettings` 修改成为 `xtlsSettings`
+{{% /notice %}}
 
 {{% notice dark %}}  `tcpSettings`: [TcpObject](../transports/tcp){{% /notice %}}
 
