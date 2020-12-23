@@ -67,9 +67,16 @@ tabWidth = 2
 #
 # top menu shotcuts
 #
+
+[[menu.shortcuts]]
+name = "What's New"
+# identifier = "ds"
+url = "/about/new"
+weight = 9
+
 [[menu.shortcuts]]
 name = "Github"
-identifier = "ds"
+# identifier = "ds"
 url = "https://github.com/XTLS"
 weight = 10
 
@@ -80,7 +87,7 @@ weight = 11
 
 [[menu.shortcuts]]
 name = "Documentation"
-identifier = "hugodoc"
+# identifier = "hugodoc"
 url = "https://xtls.github.io/"
 weight = 20
 
